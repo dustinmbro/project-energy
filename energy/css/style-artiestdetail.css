@@ -1,0 +1,145 @@
+@media screen and (max-width: 768.9px) {
+    * {
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    body {
+        height: 100vh;
+        width: 100vw;
+        background-color: #FEDCDC;
+    }
+    .boven {
+       width: 100vw;
+       height: 30vh;
+       text-align: center;
+       background-image: linear-gradient(to right, #0A7C25 50%, #3164DD 50%)
+    }
+    .boven img {
+        height: 30vh;
+    }
+    .links {
+        height: 15vh;
+        width: 100vw;
+        background-color: #2AEF65;
+        display: flex;
+    }
+    .item-blikjes img {
+        height: auto;
+        width: 100vw;
+    }
+    .item-socials {
+        text-align: center;
+        margin-top: 5vh;
+    }
+    .item-socials img {
+        padding-left: 5vw;
+    }
+    #item_hamburger summary {
+        position: absolute;
+        margin-left:75vw;
+        margin-top:-36vh;
+        list-style:none;
+        font-size:2rem;
+    
+    }
+    #hamburger a{
+        text-decoration: none;
+        border:2px solid black;
+        width:10vw;
+        color:black;
+        background-image: linear-gradient(to right top,#F57397,#1DAFE1,#28E828 );
+        margin-left:26.4vw;
+        z-index:5;
+    
+    }
+    ul{
+
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        position:absolute;
+    }
+    li {
+        padding-top: 3vh;
+    }
+}
+
+
+@media screen and (min-width: 769px) {
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #FEDCDC;
+}
+.boven {
+   height: 20vh;
+   text-align: center;
+   background-image: linear-gradient(to right, #0A7C25 50%, #3164DD 50%)
+}
+.boven img {
+    height: 20vh;
+}
+.links {
+    height: 80vh;
+    width: 15vw;
+    background-color: #2AEF65;
+
+}
+.item-border {
+    border: solid 20px #0A7C25;
+    width: 13vw;
+    height: 75.5vh;
+}
+.item-blikjes {
+    position: absolute;
+    top: 30vh;
+    left: 45vw;
+}
+.item-blikjes img {
+    height: 40vh;
+}
+.item-border h1 {
+    margin-top: 2vh;
+    margin-left: 0.2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+}
+.item-hamburger {
+    position: absolute;
+    top: 4vh;
+    right: 5vw;
+}
+.item-hamburger h1{
+    font-size: 5rem;
+}
+.item-socials {
+    position: absolute;
+    bottom: 10vh;
+    right: 12vw;
+}
+.item-socials img {
+    padding-left: 20vw;
+    height: 13vh;
+}
+#item_hamburger summary {
+    margin-left:80vw;
+    margin-top:-18vh;
+    list-style:none;
+    font-size:2rem;
+
+}
+#hamburger a{
+    text-decoration: none;
+    border:2px solid black;
+    width:10vw;
+    color:black;
+    background-image: linear-gradient(to right top,#F57397,#1DAFE1,#28E828 );
+    margin-left:80vw;
+    z-index:5;
+
+    }
+}
