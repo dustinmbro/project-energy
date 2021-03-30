@@ -35,7 +35,36 @@ switch(element.target.id){
         }
     
     break;
-       
+    case 'accPanel5':
+        if(panel.style.height == "30px"){
+            panel.style.height = "0px";
+        }else{
+            panel.style.height = "30px";
+        }
+    
+    break;
+    case 'accPanel6':
+        if(panel.style.height == "30px"){
+            panel.style.height = "0px";
+        }else{
+            panel.style.height = "30px";
+        }
+    
+    break;
+    case 'accPanel7':
+        if(panel.style.height == "30px"){
+            panel.style.height = "0px";
+        }else{
+            panel.style.height = "30px";
+        }
+    
+    break;
+    case 'accPanel8':
+        if(panel.style.height == "30px"){
+            panel.style.height = "0px";
+        }else{
+            panel.style.height = "30px";
+        }
+    break;
 }
-
 }

@@ -12,7 +12,78 @@ body{
 
 
 @media screen and (max-width: 991.9px) {
+	.item-logo {
+		display: flex;
+		padding-left: 37.5vw;
+		background: linear-gradient(to left,#196680  50%, #107422 50%);
+	}
+	.item-logo img {
+       width: 25vw;
+	}
+	#item_hamburger summary {
+		margin-left:25vw;
+		margin-top:5vh;
+		list-style:none;
+		font-size:2rem;
+		}
+		#hamburger a{
+		text-decoration: none;
+		border:2px solid black;
+		width:10vw;
+		color:black;
+		background-image: linear-gradient(to right top,#F57397,#1DAFE1,#28E828 );
+		margin-left:5vw;
+		z-index:5;
+		font-size:3vw;
+		}
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			position:absolute;
+		}
+		#item-teksten {
+			width: 100vw;
+			height: 110vh;
+			display: flex;
+			flex-direction: row;
+		}
+		#item-teksten article {
+			padding: 1vh 3vw;
+
+
+		}
+		
+
+	#item-teksten article:nth-child(1) {
+		flex: 3;
+		background-color: #D14169;
+	}
 	
+	#item-teksten article:nth-child(2) {
+		flex: 7;
+		background-color: #1DAFE1;
+	}
+	#item-teksten article:nth-child(3) {
+		display:none;
+	}
+	.panel{
+		height: 0px;
+		overflow: hidden;
+		transition: ease-out 2s;
+	}
+	.item-vragen section{
+		padding-bottom: 10vh;
+	}
+	li a {
+		text-decoration: none;
+	}
+	li a:link, li a:active, li a:visited {
+		color:black;
+	}
+	li a:hover {
+		color:#4ffe2f;
+	}
 }
 
 @media screen and (min-width: 992px) {
@@ -29,10 +100,7 @@ body{
 		margin-top:5vh;
 		list-style:none;
 		font-size:2rem;
-	 
 		}
-	  
-	 
 		#hamburger a{
 		text-decoration: none;
 		border:2px solid black;
@@ -54,7 +122,7 @@ body{
 
 	#item-teksten {
 		width: 100vw;
-		height: 76vh;
+		height: 110vh;
 		display: flex;
 		flex-direction: row;
 	}
@@ -86,22 +154,16 @@ body{
 		overflow: hidden;
 		transition: ease-out 2s;
 	}
-	
+	.item-vragen section{
+		padding-bottom: 10vh;
+	}
+	li a {
+		text-decoration: none;
+	}
+	li a:link, li a:active, li a:visited {
+		color:black;
+	}
+	li a:hover {
+		color:#4ffe2f;
+	}
 }
-/*
-#item-teksten article ul{
-	padding-left: 2vw;
-}
-#item-teksten article h3{
-	padding-left: 1vw;
-}
-#item-teksten article h2{
-	font-size: 4vw;
-}
-#item-teksten article h1{
-	font-size: 2vw;
-}
-section article nav li {
-	list-style: none;
-}
-*/
